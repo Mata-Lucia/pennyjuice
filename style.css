@@ -3,6 +3,7 @@
 .topnav a {
     font-family: 'Montserrat', sans-serif;
     color: #2EC4B6;
-    text-align: right;
+    float: right;
     padding: 5%;
+    text-decoration: none;
 }
