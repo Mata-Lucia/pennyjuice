@@ -1,9 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@500;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@500;700&display=swap');
 
+/* HEADER */
 .topnav a {
     font-family: 'Montserrat', sans-serif;
     color: #2EC4B6;
     float: right;
-    padding: 5%;
+    padding: 2%;
     text-decoration: none;
+}
+
+.topnav a:hover {
+    color: #FF9F1C;;
+}
+
+.active {
+    color: rgb(21, 109, 100);
+}
+
+header img {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.title {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+}
+
+#headerimg {
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+
+.titlebox h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 2.5rem;
+    
+}
+
+.titlebox p {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.5rem;
+}
+
+.titlebox {
+    background-color: #FFBF69;
+    color: #ffffff;
+}
+
+.icons {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#iconimg {
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+
+.icons p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2EC4B6;
+}
+
+/* MAIN */
+
+.text1, .text3 {
+    margin: 5% 15% 5% 15%;
+    background-color: #CBF3F0;
+    border-radius: 15px;
+}
+
+.text1 h2, .text3 h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #FF9F1C;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.text1 p {
+    font-family: 'Montserrat', sans-serif;
+    color: #464645;
+    padding: 0 10% 5% 10%;
+}
+
+.text2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text2box {
+    background-color: #CBF3F0;
+}
+
+.text2box h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #FF9F1C;
+    padding: 20% 3% 2% 3%;
+}
+
+.text2box p {
+    font-family: 'Montserrat', sans-serif;
+    color: #464645;
+    padding: 0% 3% 0% 3%;
+}
+
+#kidsimg {
+    width: 100%;
+}
+
+.text3 p {
+    font-family: 'Montserrat', sans-serif;
+    color: #464645;
+    padding: 0 10% 2% 10%;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 3%;
+}
+
+.details h3 {
+    font-family: 'Fredoka One', cursive;
+    color: #2EC4B6;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#orderlink {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    background-color: #FF9F1C;
+    font-size: 1.5rem;
+    padding: 1%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#orderlink:hover {
+    background-color: #2EC4B6;
+}
+
+.contact {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+#social {
+    padding: 1%;
+    width: 5%;
+    align-self: center;
+}
+
+.contact p {
+    font-family: 'Montserrat', sans-serif;
+    color: #2EC4B6;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+/* FOOTER */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFBF69;
+}
+
+#footerimg {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer h3 {
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    padding-left: 4%; 
+    padding-top: 5%;
+}
+
+.footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding-left: 4%; 
 }
