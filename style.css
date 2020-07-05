@@ -76,13 +76,13 @@ header img {
 
 /* MAIN */
 
-.text1, .text3 {
+.text1, .text3, .aboutjuice, .flavors {
     margin: 5% 15% 5% 15%;
     background-color: #CBF3F0;
     border-radius: 15px;
 }
 
-.text1 h2, .text3 h2 {
+.text1 h2, .text3 h2, .flavors h2 {
     font-family: 'Fredoka One', cursive;
     color: #FF9F1C;
     padding-top: 3%;
@@ -90,28 +90,28 @@ header img {
     text-align: center;
 }
 
-.text1 p {
+.text1 p, .flavors p {
     font-family: 'Montserrat', sans-serif;
     color: #464645;
     padding: 0 10% 5% 10%;
 }
 
-.text2, .family {
+.text2, .family, .aboutjuice2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.text2box, .family {
+.text2box, .family, .aboutjuice2 {
     background-color: #CBF3F0;
 }
 
-.text2box h2, .family h2 {
+.text2box h2, .family h2, .aboutjuice2 h2 {
     font-family: 'Fredoka One', cursive;
     color: #FF9F1C;
     padding: 20% 3% 2% 3%;
 }
 
-.text2box p, .family p {
+.text2box p, .family p, .aboutjuice2 p {
     font-family: 'Montserrat', sans-serif;
     color: #464645;
     padding: 0% 3% 0% 3%;
@@ -209,3 +209,21 @@ header img {
 }
 
 /* ABOUT MAIN */
+
+.family {
+    margin-top: 2%;
+}
+
+.aboutjuice p {
+    font-family: 'Montserrat', sans-serif;
+    color: #464645;
+    padding: 5% 5% 0% 5%;
+}
+
+#aboutjuice {
+    padding-bottom: 5%;
+}
+
+#girljuice {
+    width: 100%;
+}
